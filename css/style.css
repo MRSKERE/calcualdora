@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+html,body{
+	height: 100%
+}
+
+body{
+	background-color: #A3CEBA;
+	box-sizing: border-box;
+	font-family: 'Baloo Tammudu 2';
+	margin: 0;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.calc{
+	background-color: pink;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width: 300px;
+
+}
+
+.screen-result{
+	background-color: white;
+	color: #A3CEBA;
+	font-size: 50px;
+	padding: 40px 15px 15px;
+	text-align: right;
+}
+
+.row{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+
+}
+
+.btn{
+	background-color: pink;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size:22px;
+	color: white;
+	width: 40px;
+	outline: 0; 
+	height: 40px;
+}
+
+.btn-clear{
+	cursor: default;
+
+	height: 30px;
+	width: 30px;
+}
+
+.btn-op{
+	background-color: #A3CEBA;
+	color:  white;
+}
+
+.btn-equal{
+	background-color: purple;
+	color: white;
+}
+
+.btn:active {
+	background-color: black;
+}
+
+.btn-op:active{
+	background-color: black;
+}
+
+.btn-equal:active{
+	background-color: black;
+}
